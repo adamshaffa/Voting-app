@@ -1,6 +1,6 @@
-Pertama, lakukan git clone dari repository https://github.com/docker-archive/swarm-microservice-demo-v1. Setelah itu, periksa Dockerfile yang ada di direktori vote worker dan vote app. Setelah melihat Dockerfile di sana, periksa apakah file tersebut ada di Docker Hub. jika tidak ada pada docker hub build dan push sendiri image docker tersebut
+First, perform a git clone of the repository https://github.com/docker-archive/swarm-microservice-demo-v1. After that, check the Dockerfiles located in the vote worker and vote app directories. Once you have reviewed the Dockerfiles there, check whether those images exist on Docker Hub. If they do not exist on Docker Hub, build and push the Docker images yourself.
 
-Selanjutnya, atur file YAML untuk komponen-komponen seperti database (db), hasil (result), pekerja (worker), dan pemilihan (vote) beserta port-port yang dibutuhkan. Sebelum melakukan langkah-langkah tersebut, pastikan telah menyiapkan klaster Kubernetes dengan menggunakan Google Kubernetes Engine (GKE) melalui Terraform. Ini mencakup pembuatan klaster Kubernetes beserta jaringan dan konfigurasi lainnya.
+Next, configure the YAML files for the components—such as the database (db), result (result), worker (worker), and vote (vote)—along with their required ports. Before carrying out these steps, ensure that you have set up a Kubernetes cluster using Google Kubernetes Engine (GKE) via Terraform. This includes the creation of the Kubernetes cluster along with the networking and other necessary configurations.
 
 
 - git clone https://github.com/adamshaffa/test-case.git
